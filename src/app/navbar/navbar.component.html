@@ -1,0 +1,26 @@
+<div class="main-menu">
+  <nav class="nav-bar">
+    <ul class="nav nav-bar">
+      <li class="tablink" (click)="openPage('Acerca', $event, 'red')" id="defaultOpen">Nosotros</li>
+      <li class="tablink" (click)="openPage('Tours', $event, 'green')" >Tours</li>
+      <li class="tablink" (click)="openPage('About', $event, 'blue')">Sistema de apartado</li>
+      <li class="tablink" (click)="openPage('Contact', $event, 'orange')">Contacto</li>
+    </ul>
+  </nav>
+</div>
+
+<div id="Acerca" class="tabcontent">
+  <app-about-us></app-about-us>
+</div>
+
+<div id="Tours" class="tabcontent">
+  <app-tours></app-tours>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <img src="assets/IMG_1688.JPG" alt="Bosque">
+  <app-contact></app-contact>
+</div>
+<div id="About" class="tabcontent">
+  <app-contact-error></app-contact-error>
+</div>

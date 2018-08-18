@@ -1,0 +1,24 @@
+* {
+  margin:0px;
+  padding:0px;
+  -webkit-box-sizing:border-box ;
+  -moz-box-sizing:border-box ;
+  box-sizing:border-box;
+}
+
+  .header{
+    overflow: auto;
+    font-size: 20px;
+
+    height: inherit;
+    line-height: 120px;
+    text-align: center;
+
+    font-size: 30px;
+    font-family: Ubuntu;
+    font-weight: normal;
+  }
+
+    .header img{
+       float:left;
+    }

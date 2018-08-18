@@ -1,0 +1,54 @@
+* {
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  -moz-boz-sizing:border-box;
+  box-sizing:border-box;
+}
+
+  .social {
+    position: fixed;
+    left:0;
+    top:200px;
+    z-index: 2000;
+  }
+
+      .social ul {
+        list-style: none;
+      }
+
+          .social ul li a{
+            display: inline-block;
+            color: white;
+            background: black;
+            padding: 10px 15px;
+            text-decoration: none;
+            -webkit-transition:all 500ms ease;
+            -o-transition:all 500ms ease;
+            -transition:all 500ms ease;
+          }
+
+          .social ul li a:hover{
+            padding: 10px 30px;
+          }
+
+          .social ul li .icon-facebook{
+            background: #3b5998;
+          }
+          .social ul li .icon-twitter{
+            background: #00abf0;
+          }
+          .social ul li .icon-instagram{
+            background: linear-gradient(#400080, transparent),
+            linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+            /* background:#d047d1; */
+          }
+          .social ul li .icon-google{
+            background: #d95232;
+          }
+          .social ul li .icon-youtube{
+            background:red;
+          }
+          .social ul li .icon-mail{
+
+          }
