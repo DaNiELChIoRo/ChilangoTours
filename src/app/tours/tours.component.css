@@ -1,4 +1,4 @@
-.form_wrap {
+  .form_wrap {
   width:1050px;
   height: 460px;
   margin: 50px auto;
@@ -9,6 +9,75 @@
   border: 2px solid black;
 }
 
+.card{
+  margin-top: 3%;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.32);
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+    .form_wrap1 {
+    width:100%;
+    height: 460px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px 12px 0px 0px;
+    }
+
+      .card-title{
+        text-align: center;
+        /* font-family: 'Eagle Lake', cursive; */
+        font-weight: bold;
+      }
+
+        h4 {
+          font-family: 'lucida_calligraphyitalic';
+          /* font-family: 'Eagle Lake', cursive; */
+          /* font-style: italic; */
+        }
+
+        .encabezado h4{
+          display: inline-block;
+        }
+
+          h5{
+            text-align: center;
+          }
+
+          .sub-title{
+            margin-left: 10%;
+            /* font-weight: bold; */
+            font-size: 11px;
+          }
+
+          .snd-title{
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+          }
+
+            .number{
+              font-weight: bold;
+              color:purple;
+            }
+
+              .kids {
+                font-weight: normal;
+                font-size: 10px;
+              }
+
+              .small-letters{
+                font-weight: normal;
+                font-size: 10px;
+                color:red;
+
+                /* text-align: center; */
+              }
+
+                .small-letters span{
+                  font-weight: bold;
+                }
   h1{
     text-shadow: 2px 0 2px #fff, -2px 0 2px #fff, 0 2px 2px #fff, 0 -2px 2px #fff, 1px 1px 1px #fff, -1px -1px  1px #fff, 1px -1px #fff, -1px 1px 1px #fff;
     text-align: center;
@@ -32,7 +101,7 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url(assets/Tours/Valle_bravo/valle_bravo.JPG);
+    background-image: url(assets/Tours/Valle_bravo/valle_bravo.jpg);
     background-size: cover;
     background-position: center center;
   }

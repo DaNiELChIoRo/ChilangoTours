@@ -1,36 +1,14 @@
-<!-- <div class="modal_wrap">
-  <div class="mensaje_modal">
-    <h3>Faltaron rellenar algunos campos</h3>
-    <p>Nombre</p>
-    <span id="btnClose">Cerrar</span>
+  <div class="container">
+    <section class="main row">
+      <article class="col-xs- col-sm- col-md- col-lg-9">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit ridiculus ante quam volutpat nibh, imperdiet mus suscipit cursus posuere convallis feugiat maecenas diam lobortis. Porta rutrum pretium risus morbi cras congue cursus praesent inceptos, condimentum etiam gravida magnis cubilia velit himenaeos senectus, feugiat vitae litora fames aliquet ac tempus eget. Sapien dignissim natoque ad quis odio praesent ullamcorper a gravida metus porttitor, urna feugiat in eleifend aptent facilisis curae massa malesuada sollicitudin porta ultricies, tellus cras quisque aliquet justo bibendum et platea lacinia eu.
+        </p>
+      </article>
+      <aside class="col-xs- col-sm- col-md- col-lg-3">
+        <p>
+          Dis consequat torquent condimentum sociis morbi viverra nostra lacus, massa curabitur ultricies tempus facilisis nascetur tristique sed, convallis eleifend scelerisque mauris ac pretium cras. In porttitor primis at accumsan velit morbi aptent ultrices, eleifend viverra vestibulum pretium euismod non suspendisse, platea sollicitudin gravida lobortis torquent per pharetra. Integer ut iaculis lobortis consequat eget tristique etiam suspendisse tempus, ridiculus sociosqu id torquent eros scelerisque vehicula erat, tincidunt posuere magna montes blandit tellus neque molestie.
+        </p>
+      </aside>
+    </section>
   </div>
-</div> -->
-<div *ngIf="!name; else forminfo">
-  <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
-    <div class="form_container">
-      <div class="row_columns">
-
-        <h1>My Reactive Form</h1>
-        <input type="text" formControlName="name" placeholder="name*">
-
-        <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">{{ titleAlert }}</div>
-
-        <input type="text" formControlName="telephone">
-
-        <textarea formControlName="description"></textarea>
-
-        <input type="submit" class="btn-expanded" value="Submit Form" [disabled]="!rForm.valid">
-      </div>
-    </div>
-  </form>
-</div>
-
-<ng-template #forminfo>
-  <div class="form_container">
-    <div class="row_columns">
-      <h1>{{ name }}</h1>
-
-      <p>{{ description }}</p>
-    </div>
-  </div>
-</ng-template>

@@ -1,0 +1,9 @@
+.card-title{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+  ul{
+    list-style-type: decimal;
+  }
