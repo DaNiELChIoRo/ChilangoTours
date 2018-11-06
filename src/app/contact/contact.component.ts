@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { Observable, Subject } from 'rxjs';
+import { ContactInfoService } from '../../../e2e/app/contact-info.service';
 
 @Component({
   selector: 'app-contact',
