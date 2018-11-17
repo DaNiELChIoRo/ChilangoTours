@@ -3,20 +3,20 @@
     <img src="./assets/ChilangoTours_Logo.png" width="30" height="30" class="d-inline-block align-top" alt="ChilangoTours_Logo">
     Inicio
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" (click)="displayDropDown()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" *ngIf="showDropDown" #myDiv id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" routerLink="/about-us">Acerca de Nosotros<span class="sr-only">(current)</span></a>
+        <a class="nav-link" (click)="hideDropDown()" routerLink="/about-us">Acerca de Nosotros<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="ToggleNavbar($event)" routerLink="/sistema-apartado" data-toggle="collapse('hide')">Sistema de Apartado</a>
+        <a class="nav-link" (click)="hideDropDown()" routerLink="/sistema-apartado" data-toggle="collapse('hide')">Sistema de Apartado</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" (click)="prueba()" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Tours
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -27,7 +27,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/contact">Contacto</a>
+        <a class="nav-link" (click)="hideDropDown()" routerLink="/contact">Contacto</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -36,11 +36,3 @@
     </form>
   </div>
 </nav>
-<script type="text/javascript">
-  $(".navbar-nav li a").click(function(event)) {
-    var toggle = $(".navbar-toggle").is(":visible");
-    if(toggle) {
-        $(".navbar-collapse").collapse('hide');
-    }
-  });
-</script>

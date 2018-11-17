@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-declare var jQuery:any;
-declare var $:any;
+import { AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -10,32 +8,32 @@ declare var $:any;
 })
 export class NavbarComponent implements OnInit {
 
+  showDropDown:boolean = true;
+
+  isMobile:boolean = false;
+
   constructor() { }
 
   ngOnInit() {
-
+    if(window.innerWidth <= 512){
+      this.isMobile = true;
+    }
   }
 
-ToggleNavbar(event):void {
-
-  var e = event.target;
-  console.log(e);
-
-    if( $("navbar-toggler").is(':vissible') ) {
-        $("navbar-collapse").collapse('hide');
-
-    }else{
-      console.log('it is not vissible!');
+  hideDropDown():void {
+    if(this.isMobile == true){
+      this.showDropDown = false;
     }
+  }
 
-      // $('.navbar-collapse.in').collapse('hide');
+  displayDropDown(): void{
+    if(this.isMobile == true){
+      this.showDropDown = true;
+    }
+  }
 
-      // $(document).on('click','.navbar-collapse.in',function(e) {
-      //     if( $(e.target).is('a:not(".dropdown-toggle")') ) {
-      //         $(this).collapse('hide');
-      //         console.log('Has hecho click');m
-      //     }
-      // });
+  prueba():void {
+    // alert('esta es una prueba');
   }
 
 }
