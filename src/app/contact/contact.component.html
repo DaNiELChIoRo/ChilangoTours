@@ -1,40 +1,42 @@
-<div class="contact_body">
-  <body>
-    <div class="card w-75 mx-auto">
-      <div class="d-md-flex d-sm-flex-column">
-        <div id="contact_info" class="flex-fill bg-info col-sm-3 col-md-4">
-          <section class="contact_info">
-            <section class="info_title">
-              <span class="icon-creative-commons-attribution"></span>
-              <h2>INFORMACION<br>DE CONTACTO</h2>
+<body>
+  <div class="jumbotron jumbotron-fluid" style="background: url(assets/img(20).jpg)">
+    <div class="container">
+      <div class="card w-75 mx-auto">
+        <div class="d-md-flex d-sm-flex-column">
+          <div id="contact_info" class="flex-fill bg-info col-sm-3 col-md-4">
+            <section class="contact_info">
+              <section class="info_title">
+                <span class="icon-creative-commons-attribution"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+              </section>
+              <section class="info_items">
+                <p><span class="icon-mail"></span> viajes@chilangotours.com</p>
+                <p><span class="icon-mobile"></span>(044)5538039485</p>
+                <p><span class="icon-whatsapp"></span>(044)5578916892</p>
+              </section>
             </section>
-            <section class="info_items">
-              <p><span class="icon-mail"></span> viajes@chilangotours.com</p>
-              <p><span class="icon-mobile"></span>(044)5538039485</p>
-              <p><span class="icon-whatsapp"></span>(044)5578916892</p>
-            </section>
-          </section>
-        </div>
-        <div id="contact_form" class="flex-fill d-sm-flex-border-radius-0px col-sm-3 col-md-8">
-          <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)" action="">
-            <div class="form-header">
-              <h1 class="form-title">D<span>éjanos un mensaje</span></h1>
-            </div>
-            <input id="nombre" formControlName="name" type="text" class="form-input" placeholder="Nombre*">
-            <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">{{ titleAlert }}</div>
+          </div>
+          <div id="contact_form" class="flex-fill d-sm-flex-border-radius-0px col-sm-3 col-md-8">
+            <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)" action="">
+              <div class="form-header">
+                <h1 class="form-title">D<span>éjanos un mensaje</span></h1>
+              </div>
+              <input id="nombre" formControlName="name" type="text" class="form-input" placeholder="Nombre*">
+              <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">{{ titleAlert }}</div>
 
-            <input id="phone" type="text" class="form-input" placeholder="Teléfono / celular">
+              <input id="phone" type="text" class="form-input" placeholder="Teléfono / celular">
 
-            <input id="correo" formControlName="mail" type="text" class="form-input" placeholder="Correo Eléctronico*">
-            <div class="alert" *ngIf="!rForm.controls['mail'].valid && rForm.controls['mail'].touched">{{ titleAlert }}</div>
+              <input id="correo" formControlName="mail" type="text" class="form-input" placeholder="Correo Eléctronico*">
+              <div class="alert" *ngIf="!rForm.controls['mail'].valid && rForm.controls['mail'].touched">{{ titleAlert }}</div>
 
-            <textarea id="mensaje" formControlName="description" class="form-textarea" placeholder="Su mensaje*"></textarea>
-            <div class="alert" *ngIf="!rForm.controls['description'].valid && rForm.controls['description'].touched">{{ titleAlert }}</div>
+              <textarea id="mensaje" formControlName="description" class="form-textarea" placeholder="Su mensaje*"></textarea>
+              <div class="alert" *ngIf="!rForm.controls['description'].valid && rForm.controls['description'].touched">{{ titleAlert }}</div>
 
-            <input type="submit" class="btn-submit" (click)="onClickMe()"  value="Enviar" [disabled]="!rForm.valid">
-          </form>
+              <input type="submit" class="btn-submit" (click)="onClickMe()"  value="Enviar" [disabled]="!rForm.valid">
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </body>
-</div>
+  </div>
+</body>

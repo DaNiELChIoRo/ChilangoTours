@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "app/contact/fonts.css";
 @import "assets/fonts/Lucida_calligraphy/stylesheet.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto|Condiment|Lobster|Ubuntu|Eagle+Lake');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Condiment|Lobster|Ubuntu|Eagle+Lake|Lato|Open+Sans:400,700,800');
+/* @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700,800'); */
 
 body {
   height: 100%;
