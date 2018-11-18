@@ -17,6 +17,8 @@ import { SistemaApartadoComponent } from './sistema-apartado/sistema-apartado.co
 import { InicioComponent } from './inicio/inicio.component';
 import { PoliticasComponent } from './politicas/politicas.component';
 import { RecomendacionesComponent } from './recomendaciones/recomendaciones.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -38,7 +40,8 @@ import { RecomendacionesComponent } from './recomendaciones/recomendaciones.comp
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
