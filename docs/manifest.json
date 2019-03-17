@@ -1,0 +1,31 @@
+{
+  "name": "Chilango Tours",
+  "short_name": "Chilango Tours",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icons/ChilangoTours_Logo-64.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/ChilangoTours_Logo-76.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/ChilangoTours_Logo-128.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/ChilangoTours_Logo-256.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }    
+  ]
+}

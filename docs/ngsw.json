@@ -1,0 +1,133 @@
+{
+  "configVersion": 1,
+  "index": "/ChilangoTours/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ChilangoTours/favicon.ico",
+        "/ChilangoTours/index.html",
+        "/ChilangoTours/main.ecdee2fd5f0820909971.js",
+        "/ChilangoTours/polyfills.d84ce22cbc267b6bb5b2.js",
+        "/ChilangoTours/runtime.a66f828dca56eeb90e02.js",
+        "/ChilangoTours/scripts.db0972c64c09e77c6918.js",
+        "/ChilangoTours/styles.05db5b28e087a645abdc.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ChilangoTours/assets/ChilangoTours_Logo.ico",
+        "/ChilangoTours/assets/ChilangoTours_Logo.png",
+        "/ChilangoTours/assets/Encabezado.jpg",
+        "/ChilangoTours/assets/IMG_1688.JPG",
+        "/ChilangoTours/assets/IMG_1727.JPG",
+        "/ChilangoTours/assets/IMG_1762.JPG",
+        "/ChilangoTours/assets/IMG_1876.JPG",
+        "/ChilangoTours/assets/Icon-Spotlight-40@2x.png",
+        "/ChilangoTours/assets/Tours/Valle_bravo/IMG_1727.JPG",
+        "/ChilangoTours/assets/Tours/Valle_bravo/IMG_1877.JPG",
+        "/ChilangoTours/assets/Tours/Valle_bravo/cascada_velo_de_novia.jpg",
+        "/ChilangoTours/assets/Tours/Valle_bravo/valle_bravo.jpg",
+        "/ChilangoTours/assets/Tours/prismas_real/prismas-balsamicos-3.jpg",
+        "/ChilangoTours/assets/Tours/prismas_real/prismas-basalticos-hidalgo-huasca-2.jpg",
+        "/ChilangoTours/assets/Tours/prismas_real/real-del-monte-pueblo-magico.jpg",
+        "/ChilangoTours/assets/fondo.jpg",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/generator_config.txt",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/lcallig-demo.html",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/lcallig-webfont.woff",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/lcallig-webfont.woff2",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/specimen_files/grid_12-825-55-15.css",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/specimen_files/specimen_stylesheet.css",
+        "/ChilangoTours/assets/fonts/Lucida_calligraphy/stylesheet.css",
+        "/ChilangoTours/assets/icons/ChilangoTours_Logo-128.png",
+        "/ChilangoTours/assets/icons/ChilangoTours_Logo-256.png",
+        "/ChilangoTours/assets/icons/ChilangoTours_Logo-64.png",
+        "/ChilangoTours/assets/icons/ChilangoTours_Logo-76.png",
+        "/ChilangoTours/assets/icons/icon-128x128.png",
+        "/ChilangoTours/assets/icons/icon-144x144.png",
+        "/ChilangoTours/assets/icons/icon-152x152.png",
+        "/ChilangoTours/assets/icons/icon-192x192.png",
+        "/ChilangoTours/assets/icons/icon-384x384.png",
+        "/ChilangoTours/assets/icons/icon-512x512.png",
+        "/ChilangoTours/assets/icons/icon-72x72.png",
+        "/ChilangoTours/assets/icons/icon-96x96.png",
+        "/ChilangoTours/assets/img_background.jpg",
+        "/ChilangoTours/assets/logo1.png",
+        "/ChilangoTours/assets/logo4.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ChilangoTours/assets/ChilangoTours_Logo.ico": "b0f897a654f28dd725fd4d04b1677cb46dd119f7",
+    "/ChilangoTours/assets/ChilangoTours_Logo.png": "40f984fee5b5367d3712ad9c5699324edf6518af",
+    "/ChilangoTours/assets/Encabezado.jpg": "60b72d0cfab282b383faa4e916f7cc12215c07a2",
+    "/ChilangoTours/assets/IMG_1688.JPG": "7bc8aa7aacb67669c3756348ea28273a217b7b84",
+    "/ChilangoTours/assets/IMG_1727.JPG": "bc4b2a9f42d7e278e4f0d656960336b93e7fcec7",
+    "/ChilangoTours/assets/IMG_1762.JPG": "2a1287f4b7356bf8768b86016181e2764de086bb",
+    "/ChilangoTours/assets/IMG_1876.JPG": "219187a92a6eefd8c8b8f73d0644cb47da3566b1",
+    "/ChilangoTours/assets/Icon-Spotlight-40@2x.png": "b58076c357918f49b91a5607900b4695710ce3c3",
+    "/ChilangoTours/assets/Tours/Valle_bravo/IMG_1727.JPG": "bc4b2a9f42d7e278e4f0d656960336b93e7fcec7",
+    "/ChilangoTours/assets/Tours/Valle_bravo/IMG_1877.JPG": "c87c95704cd655eeaafe93b05b8223878a2a9db5",
+    "/ChilangoTours/assets/Tours/Valle_bravo/cascada_velo_de_novia.jpg": "167585682128aefb0b74941af400990bbabcca60",
+    "/ChilangoTours/assets/Tours/Valle_bravo/valle_bravo.jpg": "aa22c35d6337341af27829c5176e8a85aeafa247",
+    "/ChilangoTours/assets/Tours/prismas_real/prismas-balsamicos-3.jpg": "1f457eb6cec590ae605c5909041a5fffe320145a",
+    "/ChilangoTours/assets/Tours/prismas_real/prismas-basalticos-hidalgo-huasca-2.jpg": "438833584a6418d9058b46526e356daeb8a1ad8c",
+    "/ChilangoTours/assets/Tours/prismas_real/real-del-monte-pueblo-magico.jpg": "355b43a35ece31851bb812e828d760993950f01b",
+    "/ChilangoTours/assets/fondo.jpg": "15a6f261e15e3352b1c21e8198fdf632a056356f",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/generator_config.txt": "d590b7bb9fd53b07d3e95f869357ce2949bb7104",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/lcallig-demo.html": "4890ca7107db803e212a9b1b0740592be77a40e4",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/lcallig-webfont.woff": "a1ad8907b69d2715dde55fae41c125475f4b5ea0",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/lcallig-webfont.woff2": "d07b2c3bec2e2dce29708a197ba2f05410004022",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/specimen_files/grid_12-825-55-15.css": "870c69535dfe53e0acc9c5d85af5c198afb7550d",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/specimen_files/specimen_stylesheet.css": "7af68f60ed4b6f0e70defea7da3555d83813f564",
+    "/ChilangoTours/assets/fonts/Lucida_calligraphy/stylesheet.css": "dcfeedad2bbf65d660f6c510fc48d043298c8b72",
+    "/ChilangoTours/assets/icons/ChilangoTours_Logo-128.png": "53ecde71be921bf5ad4be52b384002ec78402f0c",
+    "/ChilangoTours/assets/icons/ChilangoTours_Logo-256.png": "2fa906e90608483d27131c4806d7179d9b0298c6",
+    "/ChilangoTours/assets/icons/ChilangoTours_Logo-64.png": "5242fe2cf946e50d8a809577a010c055beaccc75",
+    "/ChilangoTours/assets/icons/ChilangoTours_Logo-76.png": "21e4b0ba6e15fd0b8d32f6ad3e98c35909175d9e",
+    "/ChilangoTours/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/ChilangoTours/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/ChilangoTours/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/ChilangoTours/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/ChilangoTours/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ChilangoTours/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ChilangoTours/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/ChilangoTours/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/ChilangoTours/assets/img_background.jpg": "ef7df160eb51b4db154bf0f216d0430d75f55cd5",
+    "/ChilangoTours/assets/logo1.png": "9b7f8a657032841b7fb8558a3058d780bef527a9",
+    "/ChilangoTours/assets/logo4.jpg": "5a125ad5d37379381dc205032dd3bc826cd9fff5",
+    "/ChilangoTours/favicon.ico": "18b5a14543c616d6bd34a0c2f0df7859298371d9",
+    "/ChilangoTours/index.html": "7e654af5d1684d9e1302cb3850fb5dc3068823ef",
+    "/ChilangoTours/main.ecdee2fd5f0820909971.js": "23d96867ba40d007df6d3e951822e97a6561adec",
+    "/ChilangoTours/polyfills.d84ce22cbc267b6bb5b2.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "/ChilangoTours/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/ChilangoTours/scripts.db0972c64c09e77c6918.js": "a30f513e3db96d14c8503d3f3785d08643e5445a",
+    "/ChilangoTours/styles.05db5b28e087a645abdc.css": "076a31bd9b375715cdf3f52d36856a4d14f8599f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
